@@ -1,10 +1,7 @@
 #include <iostream>
-
 using namespace std;
-
 int findSmallest(int arr[], int size) {
     int minNumber = arr[0];
-
     for (int i = 1; i < size; i++) {
         if (arr[i] < minNumber) {
             minNumber = arr[i];
@@ -20,7 +17,7 @@ int main() {
 
     int smallest = findSmallest(arr, size);
 
-    cout << "The smallest number in the array is: " << smallest << endl;
+    cout<<"The smallest number in the array is: "<<smallest<<endl;
 
     return 0;
 }
